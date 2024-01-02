@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+.dark-theme{
+    --primary-color: black;
+    --secondary-color: white;
+}
+.companies{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    margin-top: 100px;
+}
+
+.companies1{
+    flex: 41%;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-left: 7%;
+    margin-right: 2%;
+    
+}
+
+.companies1 .title{
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.companies1 .companie{
+    display: flex;
+    flex: 100%;
+    flex-flow: row wrap;
+    /* border: 1px solid black; */
+    background: rgb(20, 20, 20);
+    border-radius: 10px;
+    margin-top: 50px;
+    /* height: 400px; */
+    padding: 25px;
+}
+
+.companie .img1{
+    /* border: 1px solid palevioletred; */
+    height: 40px;
+    flex: 10%;
+}
+.aimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.companie .img2{
+    /* border: 1px solid palevioletred; */
+    height: 40px;
+    flex: 10%;
+}
+.aimg1{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.companie1{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 40px;
+    width:90%;
+}
+
+
+.companie .descri{
+    display: inline-block;
+    /* border: 1px solid green; */
+    height: 40px;
+    width:90%;
+}
+
+.descri .name{
+    /* border: 1px solid black; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    
+}
+.descri .prof{
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: gray;
+    font-size: 14px;
+}
+
+ .descrip{
+    margin-top: 30px;
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: auto;
+    color: rgb(185, 182, 182);
+    font-size: 17px;
+}
+
+hr{
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.credit{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 20px;
+    width: 100%;
+    margin-top:10px;
+}
+.fit{
+    flex: 50%;
+    /* border: 1px solid red; */
+    color: gray;
+}
+.fit1{
+    flex: 50%;
+    /* border: 1px solid yellow; */
+    text-align: end;
+    color: gray;
+}
+
+
+.companies2{
+    flex: 43%;
+    /* border: 1px solid red; */
+    /* height: 600px; */
+    background: rgb(20, 20, 20);
+    margin-right: 7%;
+    border-radius: 10px;
+}
+.companies2 .companie{
+    display: flex;
+    flex: 100%;
+    flex-flow: row wrap;
+    /* border: 1px solid black; */
+    /* background: rgb(20, 20, 20); */
+    border-radius: 10px;
+    /* height: 400px; */
+    padding: 25px;
+}
+
+.companies2 .companie .img1{
+
+    /* border: 1px solid palevioletred; */
+    height: 40px;
+    flex: 10%;
+}
+.aimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.companies2 .companie1{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 40px;
+    width:90%;
+}
+
+
+.companies2 .companie .descri{
+    display: inline-block;
+    /* border: 1px solid green; */
+    height: 40px;
+    width:90%;
+}
+
+.companies2 .descri .name{
+    /* border: 1px solid black; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    
+}
+.companies2 .descri .prof{
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: gray;
+    font-size: 14px;
+}
+
+.companies2 .companie .img2{
+    /* border: 1px solid palevioletred; */
+    height: 40px;
+    flex: 10%;
+}
+.aimg1{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.companies2 .companie .jorn{
+    border: 1px solid palevioletred;
+    height: 220px;
+    flex: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.companies2 .companie .credit{
+    margin-top: 30px;
+}
+
+
+.solid{
+    position: fixed;
+    bottom: 0px;
+    right: 3px;
+    background: var(--secondary-color);
+    padding: 5px;
+    font-size: 14px;
+    color: var(--primary-color);
+    border-radius: 7px;
+
+}
+
+/* --primary-color: white;
+    --secondary-color: black; */

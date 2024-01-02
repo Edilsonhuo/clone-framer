@@ -1,0 +1,62 @@
+@media screen and (max-width:1005px){
+    .nav{
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+
+    .cardss .card-finaly{
+        width: 100%;
+    }
+
+    .card-item{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 30px;
+    }
+
+    .descricao{
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .headline h1{
+        text-align: center;
+        font-size: 45px;
+
+    }
+
+    .subtitle h2{
+        font-size: 40px;
+
+    }
+
+    .companies1 .title{
+        font-size: 50px;
+    }
+
+    .description h2{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .links{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+
+    .links a{
+        font-size: 14px;
+        color: grey;
+        margin:0px 15px;
+        padding-left: 3px;
+        font-size: 14px;
+        text-align: center;
+    
+    }
+}
